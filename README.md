@@ -1,11 +1,5 @@
-# docker nginx-1.18.0 php72
-docker nginx-1.18.0 php72
-
-# file => conf.d/default.conf
-
-#least_conn;     #uncomment no persistent connection nodejs
-
-#hash $remote_addr consistent; #uncomment persistent connection php session
+# docker nginx-1.18.0 php72 normal
+docker nginx-1.18.0 php72 normal
 
 # run 
   docker-compose up -d
