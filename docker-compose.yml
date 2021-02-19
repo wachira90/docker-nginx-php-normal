@@ -3,7 +3,7 @@ version: '3'
 services:
   php1:
     container_name: php1
-    image: php:7.2-fpm-alpine
+    image: wachira90/php:7.2
     restart: unless-stopped
     volumes:
       - ./html:/var/www/html
@@ -14,7 +14,7 @@ services:
 
   nginx1:
     container_name: nginx1
-    image: nginx:1.18.0
+    image: wachira90/nginx:1.18.0
     restart: unless-stopped
     volumes:
       - ./html:/var/www/html
