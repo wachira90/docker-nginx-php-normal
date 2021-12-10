@@ -1,5 +1,5 @@
-# docker nginx-1.18.0 php72 normal
-docker nginx-1.18.0 php72 normal
+# docker nginx php normal
+docker nginx php normal
 
 ## run 
 ````
