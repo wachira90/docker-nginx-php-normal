@@ -1,21 +1,36 @@
 # docker nginx-1.18.0 php72 normal
 docker nginx-1.18.0 php72 normal
 
-# run 
+## run 
+````
   docker-compose up -d
-
-# stop 
+````
+## stop 
+````
   docker-compose stop 
-
-# restart
+````
+## restart
+````
   docker-compose restart
-
-# shutdown
+````
+## shutdown
+````
   docker-compose down
-
-# URL
+````
+## log
+````
+  docker-compose logs -ft
+````
+### URL
+````
 http://localhost:7000
 http://localhost:7000/info.php
+````
 
-# modby => wachira90@yahoo.com
-# docker-nginx180-php72-normal
+## change images version
+````
+image: wachira90/nginx:1.21.4
+image: wachira90/nginx:1.18.0
+````
+modby => wachira90@yahoo.com
+
