@@ -1,6 +1,14 @@
 # docker nginx php normal
 docker nginx php normal
 
+## change php version 
+```
+image: wachira90/php:7.1
+image: wachira90/php:7.2
+image: wachira90/php:7.3
+image: wachira90/php:7.4    
+```
+
 ## run 
 ````
   docker-compose up -d
