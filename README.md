@@ -1,13 +1,20 @@
 # docker nginx php normal
 docker nginx php normal
 
+## git clone
+
+````
+git clone https://github.com/wachira90/docker-nginx-php-normal.git dkams
+````
+ 
+
 ## change php version 
-```
+````
 image: wachira90/php:7.1
 image: wachira90/php:7.2
 image: wachira90/php:7.3
 image: wachira90/php:7.4    
-```
+````
 
 ## run 
 ````
@@ -31,8 +38,14 @@ image: wachira90/php:7.4
 ````
 ### URL
 ````
-http://localhost:7000
-http://localhost:7000/info.php
+http://localhost
+http://localhost/info.php
+````
+
+#### https
+````
+https://localhost
+https://localhost/info.php
 ````
 
 ## change images version
