@@ -28,8 +28,8 @@ services:
     healthcheck:
       interval: 5s
     ports:
-      - "7000:80"
-      - "4443:443"
+      - "80:80"
+      - "443:443"
 
 networks:
   default:
