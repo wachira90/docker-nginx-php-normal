@@ -3,6 +3,7 @@ version: '3'
 services:
   php1:
     container_name: php1
+    image: wachira90/php:8.2-fpm
     image: wachira90/php:7.4
 #    image: wachira90/php:7.2
 #    image: wachira90/php:7.3
@@ -28,8 +29,8 @@ services:
     healthcheck:
       interval: 5s
     ports:
-      - "80:80"
-      - "443:443"
+      - "8011:80"
+      - "44311:443"
 
 networks:
   default:
