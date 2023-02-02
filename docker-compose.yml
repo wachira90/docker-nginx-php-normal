@@ -4,7 +4,7 @@ services:
   php1:
     container_name: php1
     image: wachira90/php:8.2-fpm
-    image: wachira90/php:7.4
+#    image: wachira90/php:7.4
 #    image: wachira90/php:7.2
 #    image: wachira90/php:7.3
 #    image: wachira90/php:7.1    
