@@ -67,3 +67,26 @@ https://localhost/info.php
 image: wachira90/nginx:1.21.4
 image: wachira90/nginx:1.18.0
 ````
+
+### internal
+
+````
+version: '3'
+
+services:
+  service1:
+    image: wachira90/nginx:1.22
+    networks:
+      - my_network
+  service2:
+    image: wachira90/nginx:1.22
+    networks:
+      - my_network
+
+networks:
+  my_network:
+    driver: bridge
+    internal: true
+````
+
+
